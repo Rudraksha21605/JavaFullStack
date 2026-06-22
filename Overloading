@@ -1,0 +1,17 @@
+class add{
+    public int add(int a,int b){
+        return a+b;
+    }
+    public int add(int a,int b,int c){
+        return a+b+c;
+    }
+}
+class Overloading{
+    public static void main(String[] args){
+        add obj=new add();
+        int c=obj.add(5,6);
+        System.out.println(c);
+        int s=obj.add(5,6,7);
+        System.out.println(s);
+    }
+}
